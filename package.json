@@ -20,7 +20,7 @@
   "homepage": "https://github.com/thzero/library_client_firebase_svelte#readme",
   "scripts": {
     "cli-update": "library-cli --updateversion --pi",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "dependencies": {
     "@thzero/library_client_firebase": "^0.18",
@@ -30,5 +30,8 @@
     "@thzero/library_client": "^0.18",
     "@thzero/library_common": "^0.19",
     "@thzero/library_client_svelte": "^0.18"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.1"
   }
 }
