@@ -34,6 +34,13 @@ export default () => {
             url: 'https://github.com/thzero/library_common',
             licenseName: 'MIT',
             licenseUrl: 'https://github.com/thzero/library_common/blob/master/license.md'
+        },
+        {
+            category: 'client',
+            name: 'firebase',
+            url: 'https://github.com/firebase/firebase-js-sdk',
+            licenseName: 'Apache-2.0',
+            licenseUrl: 'https://github.com/firebase/firebase-js-sdk/blob/HEAD/LICENSE'
         }
     ];
 }
